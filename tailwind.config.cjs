@@ -2,6 +2,7 @@
 
 const colors = require("tailwindcss/colors");
 const plugin = require("tailwindcss/plugin");
+const defaultTheme = require("tailwindcss/defaultTheme");
 
 module.exports = {
   darkMode: "class",
@@ -49,8 +50,13 @@ module.exports = {
         },
       },
       fontFamily: {
-        sans: ["Inter Variable", "sans-serif"],
-        heading: ["Inter Variable", "sans-serif"],
+        sans: ["InterVariable",'Inter',"sans-serif"],
+        heading: ["InterVariable", 'Harabara Mais Demo','sans-serif'],
+       
+        
+        /*PARA USAR LA FUENTE EN TODO EL HTML */
+       /* sans: ["InterVariable", "Harabara Mais Demo", ...defaultTheme.fontFamily.sans],*/
+        
       },
     },
   },

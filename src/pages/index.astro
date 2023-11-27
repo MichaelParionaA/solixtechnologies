@@ -11,6 +11,7 @@ import Filters from "@components/content/doctors/grid/Filters.astro";
 import Grid from "@components/content/doctors/grid/Grid.astro";
 import SideStatsRight from "@components/content/features/SideStatsRight.astro";
 import SideStatsLeft from "@components/content/features/SideStatsLeft.astro";
+import SideStatsLeft1 from "@components/content/features/SideStatsLeft1.astro";
 import Pricing from "@components/content/Pricing.astro";
 import Cta from "@components/content/Cta.astro";
 import Testimonials from "@components/content/Testimonials.astro";
@@ -18,7 +19,7 @@ import Testimonials from "@components/content/Testimonials.astro";
 
 <Layout title="Home">
   <HeroMain />
-
+<!--
   <SectionMuted>
     <Container>
       <SectionTitle
@@ -28,7 +29,7 @@ import Testimonials from "@components/content/Testimonials.astro";
       />
 
       <div class="grid md:grid-cols-3 ltablet:grid-cols-4 lg:grid-cols-4 gap-x-6 gap-y-12" x-intersect="activeStep = ''">
-        <!-- Item -->
+        
         <div>
           <IconBlock
             title="Save time & effort"
@@ -37,7 +38,7 @@ import Testimonials from "@components/content/Testimonials.astro";
             class="'text-primary-600'"
           />
         </div>
-        <!-- Item -->
+       
         <div>
           <IconBlock
             title="Curated professionals"
@@ -46,7 +47,7 @@ import Testimonials from "@components/content/Testimonials.astro";
             class="'text-rose-500'"
           />
         </div>
-        <!-- Item -->
+       
         <div>
           <IconBlock
             title="24/24 Emergencies"
@@ -55,7 +56,7 @@ import Testimonials from "@components/content/Testimonials.astro";
             class="'text-primary-600'"
           />
         </div>
-        <!-- Item -->
+       
         <div>
           <IconBlock
             title="Connected services"
@@ -64,7 +65,7 @@ import Testimonials from "@components/content/Testimonials.astro";
             class="'text-rose-500'"
           />
         </div>
-        <!-- Item -->
+        
         <div>
           <IconBlock
             title="Video consultations"
@@ -73,7 +74,7 @@ import Testimonials from "@components/content/Testimonials.astro";
             class="'text-primary-600'"
           />
         </div>
-        <!-- Item -->
+       
         <div>
           <IconBlock
             title="Audio consultations"
@@ -82,7 +83,7 @@ import Testimonials from "@components/content/Testimonials.astro";
             class="'text-primary-600'"
           />
         </div>
-        <!-- Item -->
+      
         <div>
           <IconBlock
             title="Appointements"
@@ -91,7 +92,7 @@ import Testimonials from "@components/content/Testimonials.astro";
             class="'text-primary-600'"
           />
         </div>
-        <!-- Item -->
+      
         <div>
           <IconBlock
             title="Medicine"
@@ -103,9 +104,28 @@ import Testimonials from "@components/content/Testimonials.astro";
       </div>
     </Container>
   </SectionMuted>
+-->
+  <SectionMuted class="'overflow-hidden' ">
+    <Container> <!--¿Qué nos diferencia? -->
+  
+      <SectionTitle 
+      
+       title="¿Qué nos diferencia?"
+        subtitle="Innovación, agilidad y flexibilidad para brindar soluciones disruptivas a tu medida."
+        minititle="¿Qué nos diferencia?"
+        class="'mx-auto text-center'"
+      />
+      
+      <div class="py-10">
+        <SideStatsLeft  />
+        <SideStatsRight />
+        <SideStatsLeft1 />                               
+      </div>
+    </Container>
+  </SectionMuted>
 
   <SectionMuted class="'border-b border-muted-200 dark:border-muted-800'">
-    <Container>
+    <Container >
       <SectionTitle
         title="Our great doctors"
         subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tibi hoc incredibile, quod beatissimum."
@@ -137,14 +157,7 @@ import Testimonials from "@components/content/Testimonials.astro";
     </Container>
   </SectionMuted>
 
-  <SectionMuted class="'overflow-hidden'">
-    <Container>
-      <div class="py-10">
-        <SideStatsRight />
-        <SideStatsLeft />
-      </div>
-    </Container>
-  </SectionMuted>
+
 
   <SectionMuted>
     <Container>
@@ -161,11 +174,14 @@ import Testimonials from "@components/content/Testimonials.astro";
   <SectionMuted>
     <Container>
       <SectionTitle
-        title="They love Dokto"
-        subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tibi hoc incredibile, quod beatissimum."
-        minititle="Our Patients"
+        title ="Partners"
+        
+        subtitle="Somos aliados estratégicos de marcas de primer nivel en TI."
+        minititle="Partners"
         class="'mx-auto text-center'"
+        
       />
+      
       <Testimonials />
     </Container>
   </SectionMuted>
