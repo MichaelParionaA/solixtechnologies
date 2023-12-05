@@ -17,7 +17,7 @@ import Cta from "@components/content/Cta.astro";
 import Testimonials from "@components/content/Testimonials.astro";
 ---
 
-<Layout title="Home">
+<Layout title="Inicio">
   <HeroMain />
 <!--
   <SectionMuted>
@@ -127,53 +127,55 @@ import Testimonials from "@components/content/Testimonials.astro";
   <SectionMuted class="'border-b border-muted-200 dark:border-muted-800'">
     <Container >
       <SectionTitle
-        title="Our great doctors"
-        subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tibi hoc incredibile, quod beatissimum."
-        minititle="Healthcare Professionals"
+        title="¿Qué hacemos por tu empresa?"
+        subtitle="Contamos con un amplio portafolio de servicios que se integran con tecnologías emergentes de vanguardia."
+        minititle="SERVICIOS"
         class="'mx-auto text-center'"
       />
 
-      <div id="doctors" x-data="doctors()"  x-intersect="activeStep = 'spy-1'">
+      <div id="servicios" x-data="servicios()"  x-intersect="activeStep = 'spy-1'">
         <Toolbar />
 
         <!--Grid wrapper-->
         <div class="py-10">
           <div class="grid grid-cols-12 md:gap-12 pb-20">
-            <!--Filters-->
+            <!--Filters -->
+            <!--
             <div class="hidden lg:block col-span-12 lg:col-span-3">
               <Filters />
-            </div>
+            </div> -->
             <!--Content-->
-            <div class="col-span-12 lg:col-span-9">
+            <div class="col-span-12 lg:col-span-12">
               <!--Subgrid-->
               <Grid />
             </div>
           </div>
-          <div class="flex items-center justify-center mt-10">
+          <!--<div class="flex items-center justify-center mt-10">
             <ButtonMain to="#" class="'w-64 !h-14 max-w-full'">View All Doctors</ButtonMain>
-          </div>
+          </div>-->
         </div>
       </div>
     </Container>
   </SectionMuted>
 
 
-
+<!--
   <SectionMuted>
     <Container>
+      
       <SectionTitle
         title="Pricing Options"
         subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tibi hoc incredibile, quod beatissimum."
         minititle="Simple Pricing"
         class="'mx-auto text-center'"
       />
-      <Pricing />
+      <Pricing /> 
     </Container>
   </SectionMuted>
 
   <SectionMuted>
     <Container>
-      <SectionTitle
+     <SectionTitle
         title ="Partners"
         
         subtitle="Somos aliados estratégicos de marcas de primer nivel en TI."
@@ -191,4 +193,5 @@ import Testimonials from "@components/content/Testimonials.astro";
       <Cta />
     </Container>
   </SectionMuted>
+-->
 </Layout>

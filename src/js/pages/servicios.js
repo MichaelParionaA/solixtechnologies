@@ -1,4 +1,4 @@
-export function doctors() {
+export function servicios() {
   return {
     activeCategory: "all",
     resetScroll() {
