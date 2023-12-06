@@ -3,7 +3,7 @@ import Card from "@components/base/Card.astro";
 ---
 
 <div class="grid md:grid-cols-3 ltablet:grid-cols-3 lg:grid-cols-3 gap-x-6 ptablet:gap-x-4 gap-y-16 pt-10">
-  <div x-show="activeCategory === 'all' || activeCategory === 'Infraestuctura'">
+  <div x-show="activeCategory === 'all' || activeCategory === '4'">
     <Card class="'p-4'">
       <div
         class="relative w-full h-40 rounded-lg bg-muted-200 dark:bg-muted-800"
@@ -58,7 +58,7 @@ import Card from "@components/base/Card.astro";
     </Card>
   </div>
   <!-- Doctor -->
-  <div x-show="activeCategory === 'all' || activeCategory === 'Infraestuctura'">
+  <div x-show="activeCategory === 'all' || activeCategory === '4'">
     <Card class="'p-4'">
       <div
         class="relative w-full h-40 rounded-lg bg-muted-200 dark:bg-muted-800"
@@ -113,7 +113,7 @@ import Card from "@components/base/Card.astro";
     </Card>
   </div>
   <!-- Doctor -->
-  <div x-show="activeCategory === 'all' || activeCategory === 'Infraestuctura'">
+  <div x-show="activeCategory === 'all' || activeCategory === '4'">
     <Card class="'p-4'">
       <div
         class="relative w-full h-40 rounded-lg bg-muted-200 dark:bg-muted-800"
@@ -168,7 +168,7 @@ import Card from "@components/base/Card.astro";
     </Card>
   </div>
   <!-- Doctor -->
-  <div x-show="activeCategory === 'all' || activeCategory === 'dermatology'">
+  <div x-show="activeCategory === 'all' || activeCategory === '4'">
     <Card class="'p-4'">
       <div
         class="relative w-full h-40 rounded-lg bg-muted-200 dark:bg-muted-800"
@@ -179,16 +179,15 @@ import Card from "@components/base/Card.astro";
           alt="Doctor"
         />
       </div>
-      <div class="font-sans mt-3">
+      <div class="font-heading mt-3">
         <h4 class="font-semibold text-muted-800 dark:text-muted-100">
-          Dr. Eliana Dasilva
+          Soluciones Cloud
         </h4>
-        <p class="text-sm text-muted-400">Dermatologist</p>
+        <p class="text-sm text-muted-400">Infraestuctura</p>
       </div>
       <div class="mt-2">
         <p class="text-sm ptablet:text-xs text-muted-500 dark:text-muted-400">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ergo illi
-          intellegunt quid
+          Soluciones flexibles, escalables y costo-eficientes.
         </p>
       </div>
       <div class="flex items-center justify-between font-sans mt-3">
@@ -224,7 +223,282 @@ import Card from "@components/base/Card.astro";
     </Card>
   </div>
   <!-- Doctor -->
-  <div x-show="activeCategory === 'all' || activeCategory === 'general'">
+  <div x-show="activeCategory === 'all' || activeCategory === '5'">
+    <Card class="'p-4'">
+      <div
+        class="relative w-full h-40 rounded-lg bg-muted-200 dark:bg-muted-800"
+      >
+        <img
+          class="absolute bottom-0 inset-x-0 mx-auto w-full max-w-[170px] ptablet:max-w-[150px]"
+          src="/img/illustrations/doctors/doctor-4.svg"
+          alt="Doctor"
+        />
+      </div>
+      <div class="font-heading mt-3">
+        <h4 class="font-semibold text-muted-800 dark:text-muted-100">
+          Licenciamiento de Software
+        </h4>
+        <p class="text-sm text-muted-400">Licenciamiento de Software</p>
+      </div>
+      <div class="mt-2">
+        <p class="text-sm ptablet:text-xs text-muted-500 dark:text-muted-400">
+          Licenciamiento para empresas y educación.
+        </p>
+      </div>
+      <div class="flex items-center justify-between font-sans mt-3">
+        <div class="flex items-center gap-2">
+          <button
+            tooltip="Book appointment"
+            class="h-8 w-8 rounded-full text-muted-400 hover:text-primary-500 hover:enabled:bg-muted-100 dark:hover:enabled:bg-muted-800 flex items-center justify-center tw-accessiblity transition-colors duration-300"
+          >
+            <i class="iconify w-4 h-4" data-icon="ph:calendar-check-duotone"
+            ></i>
+          </button>
+          <button
+            tooltip="Send message"
+            class="h-8 w-8 rounded-full text-muted-400 hover:text-primary-500 hover:enabled:bg-muted-100 dark:hover:enabled:bg-muted-800 flex items-center justify-center tw-accessiblity transition-colors duration-300"
+          >
+            <i class="iconify w-4 h-4" data-icon="ph:chat-circle-duotone"></i>
+          </button>
+          <button
+            tooltip="View profile"
+            class="h-8 w-8 rounded-full text-muted-400 hover:text-primary-500 hover:enabled:bg-muted-100 dark:hover:enabled:bg-muted-800 flex items-center justify-center tw-accessiblity transition-colors duration-300"
+          >
+            <i class="iconify w-4 h-4" data-icon="ph:user-duotone"></i>
+          </button>
+        </div>
+        <div class="flex items-center justify-end gap-2">
+          <i class="iconify w-4 h-4 text-yellow-400" data-icon="uiw:star-on"
+          ></i>
+          <span class="font-semibold text-xs text-muted-500 dark:text-muted-400"
+            >4.8/5</span
+          >
+        </div>
+      </div>
+    </Card>
+  </div>
+  <!-- Doctor -->
+  <div x-show="activeCategory === 'all' || activeCategory === '4'">
+    <Card class="'p-4'">
+      <div
+        class="relative w-full h-40 rounded-lg bg-muted-200 dark:bg-muted-800"
+      >
+        <img
+          class="absolute bottom-0 inset-x-0 mx-auto w-full max-w-[170px] ptablet:max-w-[150px]"
+          src="/img/illustrations/doctors/doctor-4.svg"
+          alt="Doctor"
+        />
+      </div>
+      <div class="font-heading mt-3">
+        <h4 class="font-semibold text-muted-800 dark:text-muted-100">
+          Desarrollo de Software
+        </h4>
+        <p class="text-sm text-muted-400">Infraestuctura</p>
+      </div>
+      <div class="mt-2">
+        <p class="text-sm ptablet:text-xs text-muted-500 dark:text-muted-400">
+          Desarrollamos aplicaciones escritorio,web y móviles.
+        </p>
+      </div>
+      <div class="flex items-center justify-between font-sans mt-3">
+        <div class="flex items-center gap-2">
+          <button
+            tooltip="Book appointment"
+            class="h-8 w-8 rounded-full text-muted-400 hover:text-primary-500 hover:enabled:bg-muted-100 dark:hover:enabled:bg-muted-800 flex items-center justify-center tw-accessiblity transition-colors duration-300"
+          >
+            <i class="iconify w-4 h-4" data-icon="ph:calendar-check-duotone"
+            ></i>
+          </button>
+          <button
+            tooltip="Send message"
+            class="h-8 w-8 rounded-full text-muted-400 hover:text-primary-500 hover:enabled:bg-muted-100 dark:hover:enabled:bg-muted-800 flex items-center justify-center tw-accessiblity transition-colors duration-300"
+          >
+            <i class="iconify w-4 h-4" data-icon="ph:chat-circle-duotone"></i>
+          </button>
+          <button
+            tooltip="View profile"
+            class="h-8 w-8 rounded-full text-muted-400 hover:text-primary-500 hover:enabled:bg-muted-100 dark:hover:enabled:bg-muted-800 flex items-center justify-center tw-accessiblity transition-colors duration-300"
+          >
+            <i class="iconify w-4 h-4" data-icon="ph:user-duotone"></i>
+          </button>
+        </div>
+        <div class="flex items-center justify-end gap-2">
+          <i class="iconify w-4 h-4 text-yellow-400" data-icon="uiw:star-on"
+          ></i>
+          <span class="font-semibold text-xs text-muted-500 dark:text-muted-400"
+            >4.8/5</span
+          >
+        </div>
+      </div>
+    </Card>
+  </div>
+  <!-- Doctor -->
+  <div x-show="activeCategory === 'all' || activeCategory === '4'">
+    <Card class="'p-4'">
+      <div
+        class="relative w-full h-40 rounded-lg bg-muted-200 dark:bg-muted-800"
+      >
+        <img
+          class="absolute bottom-0 inset-x-0 mx-auto w-full max-w-[170px] ptablet:max-w-[150px]"
+          src="/img/illustrations/doctors/doctor-4.svg"
+          alt="Doctor"
+        />
+      </div>
+      <div class="font-heading mt-3">
+        <h4 class="font-semibold text-muted-800 dark:text-muted-100">
+          Gestión Digital
+        </h4>
+        <p class="text-sm text-muted-400">Infraestuctura</p>
+      </div>
+      <div class="mt-2">
+        <p class="text-sm ptablet:text-xs text-muted-500 dark:text-muted-400">
+          Administramos Redes Sociales, Paginas Web, Etc
+        </p>
+      </div>
+      <div class="flex items-center justify-between font-sans mt-3">
+        <div class="flex items-center gap-2">
+          <button
+            tooltip="Book appointment"
+            class="h-8 w-8 rounded-full text-muted-400 hover:text-primary-500 hover:enabled:bg-muted-100 dark:hover:enabled:bg-muted-800 flex items-center justify-center tw-accessiblity transition-colors duration-300"
+          >
+            <i class="iconify w-4 h-4" data-icon="ph:calendar-check-duotone"
+            ></i>
+          </button>
+          <button
+            tooltip="Send message"
+            class="h-8 w-8 rounded-full text-muted-400 hover:text-primary-500 hover:enabled:bg-muted-100 dark:hover:enabled:bg-muted-800 flex items-center justify-center tw-accessiblity transition-colors duration-300"
+          >
+            <i class="iconify w-4 h-4" data-icon="ph:chat-circle-duotone"></i>
+          </button>
+          <button
+            tooltip="View profile"
+            class="h-8 w-8 rounded-full text-muted-400 hover:text-primary-500 hover:enabled:bg-muted-100 dark:hover:enabled:bg-muted-800 flex items-center justify-center tw-accessiblity transition-colors duration-300"
+          >
+            <i class="iconify w-4 h-4" data-icon="ph:user-duotone"></i>
+          </button>
+        </div>
+        <div class="flex items-center justify-end gap-2">
+          <i class="iconify w-4 h-4 text-yellow-400" data-icon="uiw:star-on"
+          ></i>
+          <span class="font-semibold text-xs text-muted-500 dark:text-muted-400"
+            >4.8/5</span
+          >
+        </div>
+      </div>
+    </Card>
+  </div>
+   <!-- Doctor -->
+   <div x-show="activeCategory === 'all' || activeCategory === '4'">
+    <Card class="'p-4'">
+      <div
+        class="relative w-full h-40 rounded-lg bg-muted-200 dark:bg-muted-800"
+      >
+        <img
+          class="absolute bottom-0 inset-x-0 mx-auto w-full max-w-[170px] ptablet:max-w-[150px]"
+          src="/img/illustrations/doctors/doctor-4.svg"
+          alt="Doctor"
+        />
+      </div>
+      <div class="font-heading mt-3">
+        <h4 class="font-semibold text-muted-800 dark:text-muted-100">
+          Consultoría
+        </h4>
+        <p class="text-sm text-muted-400">Infraestuctura</p>
+      </div>
+      <div class="mt-2">
+        <p class="text-sm ptablet:text-xs text-muted-500 dark:text-muted-400">
+          Levantamiento y rediseño de procesos, Auditorias, Establecimiento de plan informático.
+        </p>
+      </div>
+      <div class="flex items-center justify-between font-sans mt-3">
+        <div class="flex items-center gap-2">
+          <button
+            tooltip="Book appointment"
+            class="h-8 w-8 rounded-full text-muted-400 hover:text-primary-500 hover:enabled:bg-muted-100 dark:hover:enabled:bg-muted-800 flex items-center justify-center tw-accessiblity transition-colors duration-300"
+          >
+            <i class="iconify w-4 h-4" data-icon="ph:calendar-check-duotone"
+            ></i>
+          </button>
+          <button
+            tooltip="Send message"
+            class="h-8 w-8 rounded-full text-muted-400 hover:text-primary-500 hover:enabled:bg-muted-100 dark:hover:enabled:bg-muted-800 flex items-center justify-center tw-accessiblity transition-colors duration-300"
+          >
+            <i class="iconify w-4 h-4" data-icon="ph:chat-circle-duotone"></i>
+          </button>
+          <button
+            tooltip="View profile"
+            class="h-8 w-8 rounded-full text-muted-400 hover:text-primary-500 hover:enabled:bg-muted-100 dark:hover:enabled:bg-muted-800 flex items-center justify-center tw-accessiblity transition-colors duration-300"
+          >
+            <i class="iconify w-4 h-4" data-icon="ph:user-duotone"></i>
+          </button>
+        </div>
+        <div class="flex items-center justify-end gap-2">
+          <i class="iconify w-4 h-4 text-yellow-400" data-icon="uiw:star-on"
+          ></i>
+          <span class="font-semibold text-xs text-muted-500 dark:text-muted-400"
+            >4.8/5</span
+          >
+        </div>
+      </div>
+    </Card>
+  </div>
+  <!-- Doctor -->
+  <div x-show="activeCategory === 'all' || activeCategory === '4'">
+    <Card class="'p-4'">
+      <div
+        class="relative w-full h-40 rounded-lg bg-muted-200 dark:bg-muted-800"
+      >
+        <img
+          class="absolute bottom-0 inset-x-0 mx-auto w-full max-w-[170px] ptablet:max-w-[150px]"
+          src="/img/illustrations/doctors/doctor-4.svg"
+          alt="Doctor"
+        />
+      </div>
+      <div class="font-heading mt-3">
+        <h4 class="font-semibold text-muted-800 dark:text-muted-100">
+          Venta de Equipos Tecnológicos
+        </h4>
+        <p class="text-sm text-muted-400">Infraestuctura</p>
+      </div>
+      <div class="mt-2">
+        <p class="text-sm ptablet:text-xs text-muted-500 dark:text-muted-400">
+          Venta B2B, Computadoras, Servidores, Laptops, Impresoras,etc
+        </p>
+      </div>
+      <div class="flex items-center justify-between font-sans mt-3">
+        <div class="flex items-center gap-2">
+          <button
+            tooltip="Book appointment"
+            class="h-8 w-8 rounded-full text-muted-400 hover:text-primary-500 hover:enabled:bg-muted-100 dark:hover:enabled:bg-muted-800 flex items-center justify-center tw-accessiblity transition-colors duration-300"
+          >
+            <i class="iconify w-4 h-4" data-icon="ph:calendar-check-duotone"
+            ></i>
+          </button>
+          <button
+            tooltip="Send message"
+            class="h-8 w-8 rounded-full text-muted-400 hover:text-primary-500 hover:enabled:bg-muted-100 dark:hover:enabled:bg-muted-800 flex items-center justify-center tw-accessiblity transition-colors duration-300"
+          >
+            <i class="iconify w-4 h-4" data-icon="ph:chat-circle-duotone"></i>
+          </button>
+          <button
+            tooltip="View profile"
+            class="h-8 w-8 rounded-full text-muted-400 hover:text-primary-500 hover:enabled:bg-muted-100 dark:hover:enabled:bg-muted-800 flex items-center justify-center tw-accessiblity transition-colors duration-300"
+          >
+            <i class="iconify w-4 h-4" data-icon="ph:user-duotone"></i>
+          </button>
+        </div>
+        <div class="flex items-center justify-end gap-2">
+          <i class="iconify w-4 h-4 text-yellow-400" data-icon="uiw:star-on"
+          ></i>
+          <span class="font-semibold text-xs text-muted-500 dark:text-muted-400"
+            >4.8/5</span
+          >
+        </div>
+      </div>
+    </Card>
+  </div>
+  <!-- Doctor -->
+  <div x-show="activeCategory === 'all' || activeCategory === '2'">
     <Card class="'p-4'">
       <div
         class="relative w-full h-40 rounded-lg bg-muted-200 dark:bg-muted-800"
@@ -235,16 +509,15 @@ import Card from "@components/base/Card.astro";
           alt="Doctor"
         />
       </div>
-      <div class="font-sans mt-3">
+      <div class="font-heading mt-3">
         <h4 class="font-semibold text-muted-800 dark:text-muted-100">
-          Dr. Clark Novak
+         Plan Estrátegico TI
         </h4>
-        <p class="text-sm text-muted-400">Generalist</p>
+        <p class="text-sm text-muted-400">Gestión y Estrategia</p>
       </div>
       <div class="mt-2">
         <p class="text-sm ptablet:text-xs text-muted-500 dark:text-muted-400">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ergo illi
-          intellegunt quid
+          Brindamos asesoría independiente en el desarrollo de soluciones que le permitan incrementar la eficiencia en los componentes y factores críticos que influyen en la función de TI.
         </p>
       </div>
       <div class="flex items-center justify-between font-sans mt-3">
@@ -280,7 +553,7 @@ import Card from "@components/base/Card.astro";
     </Card>
   </div>
   <!-- Doctor -->
-  <div x-show="activeCategory === 'all' || activeCategory === 'surgery'">
+  <div x-show="activeCategory === 'all' || activeCategory === '2'">
     <Card class="'p-4'">
       <div
         class="relative w-full h-40 rounded-lg bg-muted-200 dark:bg-muted-800"
@@ -291,16 +564,16 @@ import Card from "@components/base/Card.astro";
           alt="Doctor"
         />
       </div>
-      <div class="font-sans mt-3">
+      <div class="font-heading mt-3">
         <h4 class="font-semibold text-muted-800 dark:text-muted-100">
-          Dr. Jenna Holloway
+          Continuidad del Negocio
         </h4>
-        <p class="text-sm text-muted-400">Surgeon</p>
+        <p class="text-sm text-muted-400">Gestión y Estrategia</p>
       </div>
       <div class="mt-2">
         <p class="text-sm ptablet:text-xs text-muted-500 dark:text-muted-400">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ergo illi
-          intellegunt quid
+         A travéz de nuestro afianzado enfoque metodológico para la Gestión de la continuidad del Negocio(BCM), guiamos a las organizaciones a garantizar
+         la continuidad de sus funciones y procesos criticos ante las amenazas que ponen en riesgo su operatividad.
         </p>
       </div>
       <div class="flex items-center justify-between font-sans mt-3">
@@ -336,7 +609,7 @@ import Card from "@components/base/Card.astro";
     </Card>
   </div>
   <!-- Doctor -->
-  <div x-show="activeCategory === 'all' || activeCategory === 'gynaecology'">
+  <div x-show="activeCategory === 'all' || activeCategory === '2'">
     <Card class="'p-4'">
       <div
         class="relative w-full h-40 rounded-lg bg-muted-200 dark:bg-muted-800"
@@ -347,16 +620,16 @@ import Card from "@components/base/Card.astro";
           alt="Doctor"
         />
       </div>
-      <div class="font-sans mt-3">
+      <div class="font-heading mt-3">
         <h4 class="font-semibold text-muted-800 dark:text-muted-100">
-          Dr. Howard Wright
+          Arquitectura Empresarial
         </h4>
-        <p class="text-sm text-muted-400">Gynaecologist</p>
+        <p class="text-sm text-muted-400">Gestión y Estrategia</p>
       </div>
       <div class="mt-2">
         <p class="text-sm ptablet:text-xs text-muted-500 dark:text-muted-400">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ergo illi
-          intellegunt quid
+          TOGAF propone una ciclo de desarrollo de arquitecturas (ADM) basado en fases e iteraciones. Este ciclo es un método para obtener arquitecturas
+          Empresariales que son específicas para la organizacion y está especialmente diseñado para responder a los requerimientos del negocio.
         </p>
       </div>
       <div class="flex items-center justify-between font-sans mt-3">
@@ -392,7 +665,121 @@ import Card from "@components/base/Card.astro";
     </Card>
   </div>
   <!-- Doctor -->
-  <div x-show="activeCategory === 'all' || activeCategory === 'cardiology'">
+  <div x-show="activeCategory === 'all' || activeCategory === '2'">
+    <Card class="'p-4'">
+      <div
+        class="relative w-full h-40 rounded-lg bg-muted-200 dark:bg-muted-800"
+      >
+        <img
+          class="absolute bottom-0 inset-x-0 mx-auto w-full max-w-[170px] ptablet:max-w-[150px]"
+          src="/img/illustrations/doctors/doctor-7.svg"
+          alt="Doctor"
+        />
+      </div>
+      <div class="font-heading mt-3">
+        <h4 class="font-semibold text-muted-800 dark:text-muted-100">
+          Gestión de Procesos de TI
+        </h4>
+        <p class="text-sm text-muted-400">Gestión y Estrategia</p>
+      </div>
+      <div class="mt-2">
+        <p class="text-sm ptablet:text-xs text-muted-500 dark:text-muted-400">
+         Dada la constante demanda por parte de las áreas de negocio de las organizaciones para que sus áreas de TI sean más agiles, confiables y brinden mayor valor,
+         es como se hace necesario más que nunca adoptar una orientación a procesos a través de la formalización, diseño e implementación operativa de los 
+         procesos a ejecutar por el área de TI.
+        </p>
+      </div>
+      <div class="flex items-center justify-between font-sans mt-3">
+        <div class="flex items-center gap-2">
+          <button
+            tooltip="Book appointment"
+            class="h-8 w-8 rounded-full text-muted-400 hover:text-primary-500 hover:enabled:bg-muted-100 dark:hover:enabled:bg-muted-800 flex items-center justify-center tw-accessiblity transition-colors duration-300"
+          >
+            <i class="iconify w-4 h-4" data-icon="ph:calendar-check-duotone"
+            ></i>
+          </button>
+          <button
+            tooltip="Send message"
+            class="h-8 w-8 rounded-full text-muted-400 hover:text-primary-500 hover:enabled:bg-muted-100 dark:hover:enabled:bg-muted-800 flex items-center justify-center tw-accessiblity transition-colors duration-300"
+          >
+            <i class="iconify w-4 h-4" data-icon="ph:chat-circle-duotone"></i>
+          </button>
+          <button
+            tooltip="View profile"
+            class="h-8 w-8 rounded-full text-muted-400 hover:text-primary-500 hover:enabled:bg-muted-100 dark:hover:enabled:bg-muted-800 flex items-center justify-center tw-accessiblity transition-colors duration-300"
+          >
+            <i class="iconify w-4 h-4" data-icon="ph:user-duotone"></i>
+          </button>
+        </div>
+        <div class="flex items-center justify-end gap-2">
+          <i class="iconify w-4 h-4 text-yellow-400" data-icon="uiw:star-on"
+          ></i>
+          <span class="font-semibold text-xs text-muted-500 dark:text-muted-400"
+            >4.8/5</span
+          >
+        </div>
+      </div>
+    </Card>
+  </div>
+   <!-- Doctor -->
+  <div x-show="activeCategory === 'all' || activeCategory === '2'">
+    <Card class="'p-4'">
+      <div
+        class="relative w-full h-40 rounded-lg bg-muted-200 dark:bg-muted-800"
+      >
+        <img
+          class="absolute bottom-0 inset-x-0 mx-auto w-full max-w-[170px] ptablet:max-w-[150px]"
+          src="/img/illustrations/doctors/doctor-7.svg"
+          alt="Doctor"
+        />
+      </div>
+      <div class="font-heading mt-3">
+        <h4 class="font-semibold text-muted-800 dark:text-muted-100">
+          Modelo de Gobierno y Control de TI
+        </h4>
+        <p class="text-sm text-muted-400">Gestión y Estrategia</p>
+      </div>
+      <div class="mt-2">
+        <p class="text-sm ptablet:text-xs text-muted-500 dark:text-muted-400">
+          Un adecuado modelo de gobierno de TI permite a las empresas impulsar la mejora del desempeño de la función de TI y lograr una
+alineamiento estratégico con el negocio, proporcionando marcos de referencia para la toma de decisiones basada en generar valor que apoye
+el cumplimiento efectivo de los objetivos estratégicos.
+        </p>
+      </div>
+      <div class="flex items-center justify-between font-sans mt-3">
+        <div class="flex items-center gap-2">
+          <button
+            tooltip="Book appointment"
+            class="h-8 w-8 rounded-full text-muted-400 hover:text-primary-500 hover:enabled:bg-muted-100 dark:hover:enabled:bg-muted-800 flex items-center justify-center tw-accessiblity transition-colors duration-300"
+          >
+            <i class="iconify w-4 h-4" data-icon="ph:calendar-check-duotone"
+            ></i>
+          </button>
+          <button
+            tooltip="Send message"
+            class="h-8 w-8 rounded-full text-muted-400 hover:text-primary-500 hover:enabled:bg-muted-100 dark:hover:enabled:bg-muted-800 flex items-center justify-center tw-accessiblity transition-colors duration-300"
+          >
+            <i class="iconify w-4 h-4" data-icon="ph:chat-circle-duotone"></i>
+          </button>
+          <button
+            tooltip="View profile"
+            class="h-8 w-8 rounded-full text-muted-400 hover:text-primary-500 hover:enabled:bg-muted-100 dark:hover:enabled:bg-muted-800 flex items-center justify-center tw-accessiblity transition-colors duration-300"
+          >
+            <i class="iconify w-4 h-4" data-icon="ph:user-duotone"></i>
+          </button>
+        </div>
+        <div class="flex items-center justify-end gap-2">
+          <i class="iconify w-4 h-4 text-yellow-400" data-icon="uiw:star-on"
+          ></i>
+          <span class="font-semibold text-xs text-muted-500 dark:text-muted-400"
+            >4.8/5</span
+          >
+        </div>
+      </div>
+    </Card>
+  </div>
+  <!-- Doctor -->
+  <div x-show="activeCategory === 'all' || activeCategory === '3'">
     <Card class="'p-4'">
       <div
         class="relative w-full h-40 rounded-lg bg-muted-200 dark:bg-muted-800"
@@ -403,16 +790,16 @@ import Card from "@components/base/Card.astro";
           alt="Doctor"
         />
       </div>
-      <div class="font-sans mt-3">
+      <div class="font-heading mt-3">
         <h4 class="font-semibold text-muted-800 dark:text-muted-100">
-          Dr. Kyle Adams
+          Evaluación y Selección de Soluciones
         </h4>
-        <p class="text-sm text-muted-400">Cardiologist</p>
+        <p class="text-sm text-muted-400">Implementaciones</p>
       </div>
       <div class="mt-2">
         <p class="text-sm ptablet:text-xs text-muted-500 dark:text-muted-400">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ergo illi
-          intellegunt quid
+          En un mundo cada vez más dependiente y demandante del uso de tecnología, cuando una organización decide adquirir una solución informática, suele enfrentarse a un mercado regionalizado o globalizado que no conoce completamente, con una extensa gama de soluciones desarrolladas
+          en distintas tecnologías que, en mayor o menor medida, pueden estar dando respuesta a los requisitos y necesidades planteados.
         </p>
       </div>
       <div class="flex items-center justify-between font-sans mt-3">
@@ -448,27 +835,26 @@ import Card from "@components/base/Card.astro";
     </Card>
   </div>
   <!-- Doctor -->
-  <div x-show="activeCategory === 'all' || activeCategory === 'general'">
+  <div x-show="activeCategory === 'all' || activeCategory === '3'">
     <Card class="'p-4'">
       <div
         class="relative w-full h-40 rounded-lg bg-muted-200 dark:bg-muted-800"
       >
         <img
           class="absolute bottom-0 inset-x-0 mx-auto w-full max-w-[170px] ptablet:max-w-[150px]"
-          src="/img/illustrations/doctors/doctor-9.svg"
+          src="/img/illustrations/doctors/doctor-8.svg"
           alt="Doctor"
         />
       </div>
-      <div class="font-sans mt-3">
+      <div class="font-heading mt-3">
         <h4 class="font-semibold text-muted-800 dark:text-muted-100">
-          Dr. Emma Callaway
+          Gestión de Proyectos de Implementación
         </h4>
-        <p class="text-sm text-muted-400">Generalist</p>
+        <p class="text-sm text-muted-400">Implementaciones</p>
       </div>
       <div class="mt-2">
         <p class="text-sm ptablet:text-xs text-muted-500 dark:text-muted-400">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ergo illi
-          intellegunt quid
+          El enfoque de nuestra propuesta se basa en nuestra experiencia y capacidades en program & ProJect Managment dentro de un marco de generación de valor.
         </p>
       </div>
       <div class="flex items-center justify-between font-sans mt-3">
@@ -497,34 +883,34 @@ import Card from "@components/base/Card.astro";
           <i class="iconify w-4 h-4 text-yellow-400" data-icon="uiw:star-on"
           ></i>
           <span class="font-semibold text-xs text-muted-500 dark:text-muted-400"
-            >4.3/5</span
+            >4.7/5</span
           >
         </div>
       </div>
     </Card>
   </div>
   <!-- Doctor -->
-  <div x-show="activeCategory === 'all' || activeCategory === 'general'">
+  <div x-show="activeCategory === 'all' || activeCategory === '3'">
     <Card class="'p-4'">
       <div
         class="relative w-full h-40 rounded-lg bg-muted-200 dark:bg-muted-800"
       >
         <img
           class="absolute bottom-0 inset-x-0 mx-auto w-full max-w-[170px] ptablet:max-w-[150px]"
-          src="/img/illustrations/doctors/doctor-10.svg"
+          src="/img/illustrations/doctors/doctor-8.svg"
           alt="Doctor"
         />
       </div>
-      <div class="font-sans mt-3">
+      <div class="font-heading mt-3">
         <h4 class="font-semibold text-muted-800 dark:text-muted-100">
-          Dr. Nasseer Al Hussein
+          Evaluación y Selección de Soluciones
         </h4>
-        <p class="text-sm text-muted-400">Generalist</p>
+        <p class="text-sm text-muted-400">Implementaciones</p>
       </div>
       <div class="mt-2">
         <p class="text-sm ptablet:text-xs text-muted-500 dark:text-muted-400">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ergo illi
-          intellegunt quid
+          En un mundo cada vez más dependiente y demandante del uso de tecnología, cuando una organización decide adquirir una solución informática, suele enfrentarse a un mercado regionalizado o globalizado que no conoce completamente, con una extensa gama de soluciones desarrolladas
+          en distintas tecnologías que, en mayor o menor medida, pueden estar dando respuesta a los requisitos y necesidades planteados.
         </p>
       </div>
       <div class="flex items-center justify-between font-sans mt-3">
@@ -553,122 +939,11 @@ import Card from "@components/base/Card.astro";
           <i class="iconify w-4 h-4 text-yellow-400" data-icon="uiw:star-on"
           ></i>
           <span class="font-semibold text-xs text-muted-500 dark:text-muted-400"
-            >4.9/5</span
+            >4.7/5</span
           >
         </div>
       </div>
     </Card>
   </div>
-  <!-- Doctor -->
-  <div x-show="activeCategory === 'all' || activeCategory === 'surgery'">
-    <Card class="'p-4'">
-      <div
-        class="relative w-full h-40 rounded-lg bg-muted-200 dark:bg-muted-800"
-      >
-        <img
-          class="absolute bottom-0 inset-x-0 mx-auto w-full max-w-[170px] ptablet:max-w-[150px]"
-          src="/img/illustrations/doctors/doctor-11.svg"
-          alt="Doctor"
-        />
-      </div>
-      <div class="font-sans mt-3">
-        <h4 class="font-semibold text-muted-800 dark:text-muted-100">
-          Dr. Kevin Wheeler
-        </h4>
-        <p class="text-sm text-muted-400">Surgeon</p>
-      </div>
-      <div class="mt-2">
-        <p class="text-sm ptablet:text-xs text-muted-500 dark:text-muted-400">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ergo illi
-          intellegunt quid
-        </p>
-      </div>
-      <div class="flex items-center justify-between font-sans mt-3">
-        <div class="flex items-center gap-2">
-          <button
-            tooltip="Book appointment"
-            class="h-8 w-8 rounded-full text-muted-400 hover:text-primary-500 hover:enabled:bg-muted-100 dark:hover:enabled:bg-muted-800 flex items-center justify-center tw-accessiblity transition-colors duration-300"
-          >
-            <i class="iconify w-4 h-4" data-icon="ph:calendar-check-duotone"
-            ></i>
-          </button>
-          <button
-            tooltip="Send message"
-            class="h-8 w-8 rounded-full text-muted-400 hover:text-primary-500 hover:enabled:bg-muted-100 dark:hover:enabled:bg-muted-800 flex items-center justify-center tw-accessiblity transition-colors duration-300"
-          >
-            <i class="iconify w-4 h-4" data-icon="ph:chat-circle-duotone"></i>
-          </button>
-          <button
-            tooltip="View profile"
-            class="h-8 w-8 rounded-full text-muted-400 hover:text-primary-500 hover:enabled:bg-muted-100 dark:hover:enabled:bg-muted-800 flex items-center justify-center tw-accessiblity transition-colors duration-300"
-          >
-            <i class="iconify w-4 h-4" data-icon="ph:user-duotone"></i>
-          </button>
-        </div>
-        <div class="flex items-center justify-end gap-2">
-          <i class="iconify w-4 h-4 text-yellow-400" data-icon="uiw:star-on"
-          ></i>
-          <span class="font-semibold text-xs text-muted-500 dark:text-muted-400"
-            >4.3/5</span
-          >
-        </div>
-      </div>
-    </Card>
-  </div>
-  <!-- Doctor -->
-  <div x-show="activeCategory === 'all' || activeCategory === 'dermatology'">
-    <Card class="'p-4'">
-      <div
-        class="relative w-full h-40 rounded-lg bg-muted-200 dark:bg-muted-800"
-      >
-        <img
-          class="absolute bottom-0 inset-x-0 mx-auto w-full max-w-[170px] ptablet:max-w-[150px]"
-          src="/img/illustrations/doctors/doctor-12.svg"
-          alt="Doctor"
-        />
-      </div>
-      <div class="font-sans mt-3">
-        <h4 class="font-semibold text-muted-800 dark:text-muted-100">
-          Dr. Adam Grant
-        </h4>
-        <p class="text-sm text-muted-400">Dermatologist</p>
-      </div>
-      <div class="mt-2">
-        <p class="text-sm ptablet:text-xs text-muted-500 dark:text-muted-400">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ergo illi
-          intellegunt quid
-        </p>
-      </div>
-      <div class="flex items-center justify-between font-sans mt-3">
-        <div class="flex items-center gap-2">
-          <button
-            tooltip="Book appointment"
-            class="h-8 w-8 rounded-full text-muted-400 hover:text-primary-500 hover:enabled:bg-muted-100 dark:hover:enabled:bg-muted-800 flex items-center justify-center tw-accessiblity transition-colors duration-300"
-          >
-            <i class="iconify w-4 h-4" data-icon="ph:calendar-check-duotone"
-            ></i>
-          </button>
-          <button
-            tooltip="Send message"
-            class="h-8 w-8 rounded-full text-muted-400 hover:text-primary-500 hover:enabled:bg-muted-100 dark:hover:enabled:bg-muted-800 flex items-center justify-center tw-accessiblity transition-colors duration-300"
-          >
-            <i class="iconify w-4 h-4" data-icon="ph:chat-circle-duotone"></i>
-          </button>
-          <button
-            tooltip="View profile"
-            class="h-8 w-8 rounded-full text-muted-400 hover:text-primary-500 hover:enabled:bg-muted-100 dark:hover:enabled:bg-muted-800 flex items-center justify-center tw-accessiblity transition-colors duration-300"
-          >
-            <i class="iconify w-4 h-4" data-icon="ph:user-duotone"></i>
-          </button>
-        </div>
-        <div class="flex items-center justify-end gap-2">
-          <i class="iconify w-4 h-4 text-yellow-400" data-icon="uiw:star-on"
-          ></i>
-          <span class="font-semibold text-xs text-muted-500 dark:text-muted-400"
-            >4.9/5</span
-          >
-        </div>
-      </div>
-    </Card>
-  </div>
+  
 </div>
