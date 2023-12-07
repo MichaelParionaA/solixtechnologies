@@ -1,13 +1,15 @@
-![Screenshot](https://media.cssninja.io/products/dokto/product.png "Dokto")
+![Screenshot](https://solix.pe/static/images/logo.png "SOILIXTECHNOLOGIES")
 
-# 👋 Dokto
-> Dokto is a free landing page starter built by [cssninjaStudio](https://cssninja.io).
+# 👋 solixtechnologies
+> Desarrollamos estrategias flexibles [solixtechnologies](https://solixtechnologies.com).
+> Ayudamos a las empresas a desarrollar estrategias flexibles que mejor se adapten a sus necesidades y objetivos para potenciar su negocio.
 
-[![cssninja-discord](https://img.shields.io/discord/785473098069311510?label=join%20us%20on%20discord&color=6944EC)](https://go.cssninja.io/discord)
+
+[![solixtechnologies](https://img.shields.io/discord/785473098069311510?label=join%20us%20on%20discord&color=6944EC)](https://solixtechnologies.com)
 
 ## ✌️ preview
 
-Check out the live demo by clicking [here](https://dokto.cssninja.io). 
+Check out the live demo by clicking [here](https://solixtechnologies.com). 
 Dokto is built with [Astro](https://astro.build), [TailwindCSS](https://tailwindcss.com/) and [Alpine JS](https://github.com/alpinejs/alpine).
 
 ## 👍 Features
