@@ -1,4 +1,4 @@
-![Screenshot](https://media.cssninja.io/products/dokto/product.png "Dokto")
+![Screenshot](https://solix.pe/static/images/logo.png "SOILIXTECHNOLOGIES")
 
 # 👋 Dokto
 > Dokto is a free landing page starter built by [cssninjaStudio](https://cssninja.io).
