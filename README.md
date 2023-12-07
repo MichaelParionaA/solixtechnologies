@@ -1,9 +1,11 @@
 ![Screenshot](https://solix.pe/static/images/logo.png "SOILIXTECHNOLOGIES")
 
 # 👋 solixtechnologies
-> Desarrollamos estrategias flexibles [cssninjaStudio](https://cssninja.io).
+> Desarrollamos estrategias flexibles [solixtechnologies](https://solixtechnologies.com).
+> Ayudamos a las empresas a desarrollar estrategias flexibles que mejor se adapten a sus necesidades y objetivos para potenciar su negocio.
 
-[![cssninja-discord](https://img.shields.io/discord/785473098069311510?label=join%20us%20on%20discord&color=6944EC)](https://go.cssninja.io/discord)
+
+[![solixtechnologies](https://img.shields.io/discord/785473098069311510?label=join%20us%20on%20discord&color=6944EC)](https://solixtechnologies.com)
 
 ## ✌️ preview
 
