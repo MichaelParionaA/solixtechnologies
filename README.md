@@ -9,7 +9,7 @@
 
 ## ✌️ preview
 
-Check out the live demo by clicking [here](https://dokto.cssninja.io). 
+Check out the live demo by clicking [here](https://solixtechnologies.com). 
 Dokto is built with [Astro](https://astro.build), [TailwindCSS](https://tailwindcss.com/) and [Alpine JS](https://github.com/alpinejs/alpine).
 
 ## 👍 Features
