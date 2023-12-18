@@ -1,4 +1,4 @@
-![Screenshot](https://solix.pe/static/images/logo.png "SOILIXTECHNOLOGIES")
+![Screenshot](https://solix.pe/static/images/logo.png "SOLIXTECHNOLOGIES")
 
 # 👋 solixtechnologies
 > Desarrollamos estrategias flexibles [solixtechnologies](https://solixtechnologies.com).
@@ -52,7 +52,7 @@ If you've found an issue or a bug, you can report it in the issues section of th
 
 ## 🎉 More
 
-Mayor información [Css Ninja](https://solixtechnologies.com).
+Mayor información [SOLIX TECHNOLOGIES](https://solixtechnologies.com).
 
 ## 🚀 About Us
 
