@@ -52,8 +52,9 @@ If you've found an issue or a bug, you can report it in the issues section of th
 
 ## 🎉 More
 
-Find more premium website and app templates on [Css Ninja](https://cssninja.io/).
+Mayor información [Css Ninja](https://solixtechnologies.com).
 
 ## 🚀 About Us
 
-Css Ninja is a web design studio. We build handcrafted and polished templates that will give some hype to your startup or to your next project.
+Somos un equipo diverso con perspectivas únicas. Unido en nuestro propósito, nuestra estrategia y nuestra cultura.
+Estamos comprometidos al 100%. Somos un aliado estratégico que te llevará a ser más eficiente.
